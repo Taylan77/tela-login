@@ -10,10 +10,32 @@ Telas grandes: acima de 1200px
 */
 
 @media  screen and (min-width: 769px) and (max-width: 992px) {
-
+    #login{
+        width: 65vw;
+    }
 }
 
 
 @media screen and (min-width: 992px) {
-    
+    #login{
+        width: 50vw;
+    }
+
+    #formulario h1{
+        font-size: 2em;
+    }
+
+    #formulario p{
+        font-size: 1.2em;
+    }
+
+    form input[type=submit]{
+        font-size: 1.2em;
+        height: 35px;
+    }
+
+    form a{
+        font-size: 1.2em;
+        height: 35px;
+    }
 }
